@@ -1,0 +1,5 @@
+(executable
+ (public_name hex)
+ (name main)
+ (flags (:standard -cclib -static))
+ (libraries core_unix.command_unix hex_lib))

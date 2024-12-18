@@ -1,0 +1,16 @@
+(library
+ (name hex_types)
+ (libraries bin_prot core)
+ (inline_tests)
+ (preprocess
+  (pps
+   ppx_bin_prot
+   ppx_compare
+   ppx_enumerate
+   ppx_expect
+   ppx_fields_conv
+   ppx_sexp_conv
+   ppx_sexp_message
+   ppx_string
+   ppx_string_conv
+   ppx_variants_conv)))

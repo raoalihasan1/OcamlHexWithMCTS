@@ -1,0 +1,5 @@
+(library
+ (name hex_lib)
+ (libraries async core core_unix.filename_unix domainslib hex_types)
+ (preprocess
+  (pps ppx_let ppx_sexp_message ppx_string)))
